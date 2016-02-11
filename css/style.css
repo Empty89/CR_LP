@@ -1,0 +1,108 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    /*position: absolute;*/
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0}
+
+.header {
+  margin-top: 12%;
+}
+
+.header-subtitle {
+  margin-top: 7%;
+  font-size: 2em;
+}
+
+.col-servizio{
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.btn-reg{
+  width: 100%;
+}
+
+#how_it_works p {
+  font-size: 1.1em;
+}
+
+/* label focus color */
+.input-field input[type=email]:focus + label {
+ color: #fff;
+}
+
+/* label underline focus color */
+.input-field input[type=email]:focus {
+ border-bottom: 1px solid #03a9f4;
+ box-shadow: 0 1px 4px 0 #000;
+}
+
+.shadow {
+  text-shadow: 1px 1px 4px #000;
+}
+
+.icon-serv {
+  padding-top: 0.5em;
+  padding-bottom: 0.3em;
+}
+
+.brand-logo {
+  font-family: 'Indie Flower', cursive;
+  font-weight: 600;
+}
+
+#cities h2 {
+  font-family: 'Indie Flower', cursive;
+  font-weight: 400;
+}
